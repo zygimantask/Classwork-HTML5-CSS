@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.grass, .sky, .road {
+  position: relative;
+}
+
+.sky {
+  background-color: skyblue;
+  height: 40%;
+}
+
+.cloud {
+  position: relative;
+  padding: 30px;
+  width: 30%;
+  height: auto;
+}
+
+.cloud2 {
+  position: relative;
+}
+
+.grass {
+  background-color: seagreen;
+  height: 30%;
+}
+
+.road {
+  background-color: dimgrey;
+  height: 30%;
+  box-sizing: border-box;
+  border-top: 10px solid grey;
+  border-bottom: 10px solid grey;
+  width: 100%;
+}
+
+.roadLines {
+  box-sizing: border-box;
+  border: 5px dashed white;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+}
+
+/* animacija - mario */
+.mario {
+  position: absolute;
+  top: -45px;
+  left: 0px;
+  animation-name: drive;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+.luigi {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  animation: drive;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 1.78s;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(0px)
+  }
+
+  to {
+    transform: translateX(1300px)
+  }
+}

@@ -1,0 +1,161 @@
+body {
+    background-color: #edf0f5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #161617;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 22px;
+    color: #d4d7dc;
+    margin-bottom: 60px;
+}
+
+.konteineris {
+    width: 1200px;
+    height: 740px;
+    background-color: red;
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #edf0f5;
+
+}
+
+.pirmas {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 1;
+    border-radius: 5px;
+}
+
+.antras {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 2;
+    border-radius: 5px;
+}
+
+.trecias {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 3;
+    border-radius: 5px;
+}
+
+.ketvirtas {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 4;
+    border-radius: 5px;
+}
+
+.penktas {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 5;
+    border-radius: 5px;
+}
+
+.sestas {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 6;
+    border-radius: 5px;
+}
+
+.septintas {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 7;
+    border-radius: 5px;
+}
+
+.astuntas {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    order: 8;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 85px;
+    width: 30%;
+    
+}
+
+p.vardas {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+img.location {
+    margin-left: auto;
+    width: 20px;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+p.adresas {
+    font-size: 10px;
+    text-align: center;
+    color: #b1b3b4;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p.apie {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #b1b3b4;
+}
+
+p.connected {
+    text-align: center;
+    font-size: 12px;
+    color: #b1b3b4;
+    margin-bottom: 20px;
+}
+
+img.piktogramos {
+    border-radius: 0;
+    margin-top: 0;
+    width: 150px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+p.apie2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #b1b3b4;
+}

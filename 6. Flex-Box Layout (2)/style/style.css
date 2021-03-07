@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f3f4;
+  color: hsl(229, 6%, 66%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.pirmaAntraste, .antraAntraste, .dezesVardas {
+  color: hsl(234, 12%, 34%);
+}
+
+.konteineris, .konteineris2, .deze {
+  display: flex;
+}
+
+.konteineris2, .deze {
+  flex-direction: column;
+}
+
+.antrastesKonteineris {
+  margin: auto;
+  padding: 3em 0;
+  text-align: center;
+  width: 35em;
+}
+
+.konteineris {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.konteineris2 {
+  justify-content: space-around;
+}
+
+.pirmaAntraste, .antraAntraste {
+  font-size: 2em;
+}
+
+.pirmaAntraste {
+  font-weight: 200;
+}
+
+.antraAntraste {
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+
+.deze {
+  align-items: flex-end;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 12em;
+  justify-content: space-between;
+  margin: 1em;
+  padding: 1.5em;
+  width: 23em;
+  -webkit-box-shadow: 2px 4px 8px 1px rgba(76, 78, 97, 0.39);
+  box-shadow: 2px 4px 8px 1px rgba(76, 78, 97, 0.39);
+}
+
+.pirmaLentele {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.antraLentele {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.treciaLentele {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.ketvirtaLentele {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}

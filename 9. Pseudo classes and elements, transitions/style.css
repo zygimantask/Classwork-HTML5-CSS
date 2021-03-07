@@ -1,0 +1,181 @@
+/*Numeravimas*/
+ol > ::marker {
+    font-size: 26px;
+    font-style: bold;
+    color: blueviolet;
+}
+
+/*Linkai*/
+a {
+    color: darkcyan;
+    text-decoration: overline underline;
+    padding: 20px;
+}
+
+/*Linku spalvos keitimas uzvedus ir dekoracijos keitimas*/
+a:hover {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+/*Zymejimas pries*/
+
+ol > li:nth-child(2) > p:first-of-type::before {
+    content: "teksas prieš ";
+    color: red;
+}
+
+/*Zymejimas po*/
+
+ol > li:nth-child(2) > p:nth-of-type(2)::after {
+    content: " tekstas po";
+    color: red;
+}
+
+/*paveikslelio iterpimas pries*/
+ol > li:nth-child(2) > p:nth-last-of-type(3)::after {
+    background: url(istockphoto-825620870-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 60px 80px;
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 90px;
+
+}
+
+/*paveikslelio iterpimas po*/
+ol > li:nth-child(2) > p:nth-last-of-type(4)::before {
+    background: url(istockphoto-825620870-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: 60px 80px;
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 90px;
+}
+
+/*elemento iterpimas pries*/
+ol > li:nth-child(2) > p:nth-of-type(5)::before {
+    background-color: orangered;
+    content: " ";
+    display: inline-block;
+    width: 90px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+/*elemento iterpimas po*/
+ol > li:nth-child(2) > p:nth-of-type(6)::after {
+    background-color: orangered;
+    content: " ";
+    display: inline-block;
+    width: 90px;
+    height: 16px;
+    margin-left: 5px;
+}
+
+/*pseudoelementas selection*/
+
+ol > li:nth-child(3) > p::selection {
+    background-color: orangered
+}
+
+/*pazymeta pirma raide*/
+
+ol > li:nth-child(4) > p::first-letter {
+    color: orangered;
+    font-size: 24px;
+}
+
+/*pazymeta pirma eilute*/
+
+ol > li:nth-child(5) > p::first-line {
+    background-color: orangered;
+    font-weight: bold;
+}
+
+/*child selectoriai - pazymi nelyginius*/
+
+ol > li:nth-child(6) ul:first-of-type li:nth-of-type(odd) {
+    background-color: orangered;
+}
+
+/*child selectoriai - pazymi lyginius*/
+
+ol > li:nth-child(6) ul:nth-of-type(2) li:nth-of-type(even) {
+    background-color: orangered;
+}
+
+/*child selectoriai - pabraukia 3 elementa, pakeicia spalva 4 elemento, fonuoja 5 elementa*/
+ol > li:nth-child(6) ul:nth-of-type(3) li:nth-of-type(3) {
+    text-decoration: underline;
+}
+
+ol > li:nth-child(6) ul:nth-of-type(3) li:nth-of-type(4) {
+    color: orangered;
+}
+
+ol > li:nth-child(6) ul:nth-of-type(3) li:nth-of-type(5) {
+    background-color: orangered;
+}
+
+/*pirmas elementas - teksto spalva*/
+
+ol > li:nth-child(6) ul:nth-of-type(4) li:first-of-type {
+    color: orangered;
+}
+
+/*paskutinis elementas - teksto spalva*/
+
+ol > li:nth-child(6) ul:nth-of-type(5) li:last-of-type {
+    color: orangered;
+}
+
+/*ANIMACIJA - KEICIA SPALVA*/
+
+ol > li:nth-child(7) p:first-of-type::after {
+    background-color: orangered;
+    content: '';
+    display: block;
+    height: 150px;
+    width: 150px;
+    transition: linear 1s;
+    margin-top: 10px;
+}
+
+ol > li:nth-child(7) p:first-of-type:hover::after {
+    background-color: mediumvioletred;
+}
+
+/*ANIMACIJA - KEICIA DYDI I PLOTI*/
+
+ol > li:nth-child(7) p:nth-of-type(2)::after {
+    background-color: orangered;
+    content: '';
+    display: block;
+    height: 150px;
+    width: 150px;
+    transition: linear 1s;
+    margin-top: 10px;
+}
+
+ol > li:nth-child(7) p:nth-of-type(2):hover::after {
+    width: 100%;
+}
+
+/*ANIMACIJA - KEICIA POZICIJA*/
+
+ol > li:nth-child(7) p:nth-of-type(3)::after {
+    background-color: orangered;
+    content: '';
+    display: block;
+    height: 150px;
+    width: 150px;
+    transition: linear 1s;
+    margin-top: 10px;
+}
+
+ol > li:nth-child(7) p:nth-of-type(3):hover::after {
+    margin-left: 5%;
+}

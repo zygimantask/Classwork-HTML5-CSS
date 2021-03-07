@@ -1,0 +1,51 @@
+body {
+    margin:0;
+}
+
+main {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div {
+    margin: 20px;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+    main{
+        background: red;
+    }
+    h1 {
+        color: yellow;
+    }
+    div {
+        max-width: calc((100% / 2) - 40px);
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    main {
+        background: grey;
+    }
+    h1 {
+        color: tomato;
+    }
+    div {
+        max-width: calc((100% / 3) - 40px);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        background: lightblue;
+    }
+    h1 {
+        color: teal;
+    }
+    div {
+        max-width: calc((100% / 4) - 40px) ;
+    }
+}

@@ -1,0 +1,160 @@
+body {
+    background-color: #cce7f4;
+}
+
+.Burger {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: 24px;
+}
+
+.VirsutineBandele {
+    width: 400px;
+    height: 100px;
+    background-color: #f8b300;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #f8b300;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 20px red;
+    box-shadow: 0px 7px 0px #ca9304;
+    margin-bottom: 13px;
+}
+
+.SalotaPirma {
+    width: 420px;
+    height: 15px;
+    border: 1px solid #67af43;
+    background-color: #67af43;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 5px #569437;
+    margin-bottom: 11px;
+    position: relative;
+}
+
+.SurisPirmas {
+    border: 1px solid #f5e03d;
+    width: 435px;
+    height: 25px;
+    background-color: #f5e03d;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 4px #d2c23e;
+    margin-bottom: 9px;
+}
+
+.PomidorasPirmas {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #e3431e;
+    background-color: #e3431e;
+    margin-left: 500px;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px #c73a1a;
+    margin-bottom: 10px;
+}
+
+.PomidorasAntras {
+    width: 180px;
+    height: 30px;
+    border: 1px solid #e3431e;
+    background-color: #e3431e;
+    position: relative;
+    margin-left: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 5px #c73a1a;
+}
+
+.Mesa {
+    width: 430px;
+    height: 65px;
+    border: 1px solid #694032;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #694032;
+    box-shadow: 0px 10px #462c23;
+    margin-bottom: 18px;
+}
+
+.SurisTrecias {
+    border: 1px solid #f5e03d;
+    width: 435px;
+    height: 25px;
+    background-color: #f5e03d;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0px 4px #d2c23e;
+    margin-bottom: 12px;
+}
+
+.SalotaAntra {
+    width: 420px;
+    height: 15px;
+    border: 1px solid #67af43;
+    background-color: #67af43;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 5px #569437;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.ApatineBandele {
+    width: 400px;
+    height: 100px;
+    background-color: #f8b300;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #f8b300;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    box-shadow: 20px red;
+    box-shadow: inset 0px 7px 0px #ca9304;
+    margin-bottom: 13px;
+    z-index: -1;
+}
+
+.Kaina {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #e3431e;
+    background-color: #e3431e;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-right: -20px;
+    z-index: 1;
+    transform: rotate(-25deg);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    font-size: 30px;
+    text-align-last: center;
+}
